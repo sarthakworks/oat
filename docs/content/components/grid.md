@@ -1,6 +1,6 @@
 +++
 title = "12-column grid"
-weight = 17
+weight = 170
 description = "12-column responsive grid using container queries and CSS flex."
 +++
 

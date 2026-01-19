@@ -1,6 +1,6 @@
 +++
 title = "Meter"
-weight = 10
+weight = 100
 description = "Measurements using the semantic <meter> element."
 +++
 

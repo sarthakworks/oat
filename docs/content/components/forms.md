@@ -1,6 +1,6 @@
 +++
 title = "Form elements"
-weight = 3
+weight = 90
 description = "Inputs, selects, textareas, checkboxes, radios, and fieldsets"
 +++
 

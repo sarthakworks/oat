@@ -1,6 +1,6 @@
 +++
 title = "Switch"
-weight = 4
+weight = 130
 description = "Toggle switches using checkbox with role=\"switch\". Native HTML, no JS required."
 +++
 

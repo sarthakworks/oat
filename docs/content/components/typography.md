@@ -1,6 +1,6 @@
 +++
 title = "Typography"
-weight = 1
+weight = 10
 description = "Headings, paragraphs, lists, code blocks, and other text elements. All styled by default."
 +++
 

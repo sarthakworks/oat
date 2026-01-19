@@ -1,6 +1,6 @@
 +++
 title = "Sidebar"
-weight = 16
+weight = 120
 description = "Fixed sidebar layout with collapsible sections using details/summary semantic tags."
 +++
 

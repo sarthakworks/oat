@@ -1,6 +1,6 @@
 +++
 title = "Buttons"
-weight = 2
+weight = 50
 description = "Button variants and sizes"
 +++
 

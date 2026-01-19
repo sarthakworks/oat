@@ -1,6 +1,6 @@
 +++
 title = "Tables"
-weight = 5
+weight = 140
 description = "Data tables with thead, tbody. Styled automatically."
 +++
 

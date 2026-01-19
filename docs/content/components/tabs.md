@@ -1,6 +1,6 @@
 +++
 title = "Tabs"
-weight = 12
+weight = 150
 description = "Tabbed interface using a custom WebComponent and semantic behaviour."
 
 [extra]

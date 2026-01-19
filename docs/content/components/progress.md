@@ -1,6 +1,6 @@
 +++
 title = "Progress & spinner"
-weight = 9
+weight = 110
 description = "Progress bars using the native <progress> element. Spinners with role=\"status\"."
 +++
 

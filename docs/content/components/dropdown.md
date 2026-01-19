@@ -1,6 +1,6 @@
 +++
 title = "Dropdown menu"
-weight = 14
+weight = 80
 description = "Popover menus using the native popover API. Supports keyboard navigation."
 +++
 

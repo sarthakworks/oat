@@ -1,6 +1,6 @@
 +++
 title = "Accordion"
-weight = 11
+weight = 20
 description = "Collapsible sections using native <details> and <summary> elements. No JS required."
 +++
 

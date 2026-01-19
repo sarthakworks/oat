@@ -1,6 +1,6 @@
 +++
 title = "Badges"
-weight = 8
+weight = 40
 description = "Inline badge / tag / pill labels."
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = "Toast"
-weight = 15
+weight = 160
 description = "Dynamic toasts using a custom WebComponent."
 
 [extra]

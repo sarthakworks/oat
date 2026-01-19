@@ -1,6 +1,6 @@
 +++
 title = "Dialog"
-weight = 13
+weight = 70
 description = "Modal dialogs using native <dialog> with a custom WebComponent."
 
 [extra]
