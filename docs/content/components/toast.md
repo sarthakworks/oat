@@ -15,7 +15,7 @@ Show toast notifications with `ot.toast(message, options?)`.
 ```
 {% end %}
 
-## Placement
+### Placement
 
 ```js
 ot.toast('Top left', '', { placement: 'top-left' })
@@ -26,7 +26,7 @@ ot.toast('Bottom center', '', { placement: 'bottom-center' })
 ot.toast('Bottom right', '',{ placement: 'bottom-right' })
 ```
 
-## Options
+### Options
 
 | Option      | Default       | Description                          |
 | ----------- | ------------- | ------------------------------------ |
@@ -34,7 +34,7 @@ ot.toast('Bottom right', '',{ placement: 'bottom-right' })
 | `placement` | `'top-right'` | Position on screen                   |
 | `duration`  | `4000`        | Auto-dismiss in ms (0 = persistent)  |
 
-## Custom markup
+### Custom markup
 
 Use `ot.toastEl(element, options?)` to show toasts with custom HTML content.
 
@@ -73,7 +73,7 @@ ot.toastEl(el);
 
 The element is cloned before display, so templates can be reused.
 
-## Clear toasts
+### Clearing toasts
 
 ```js
 ot.toast.clear()              // Clear all

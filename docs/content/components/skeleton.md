@@ -13,13 +13,13 @@ Use `.skeleton` with `role="status"` for loading placeholders. Add `.line` for t
 ```
 {% end %}
 
-## Skeleton card 
+### Skeleton card 
 
 Put skeleton loader inside `<article>` to get a card layout.
 
 {% demo() %}
 ```html
-<article style="display: flex; gap: var(--space-1); padding: var(--space-6);">
+<article style="display: flex; gap: var(--space-3); padding: var(--space-6);">
   <div role="status" class="skeleton box"></div>
   <div style="flex: 1; display: flex; flex-direction: column; gap: var(--space-1);">
     <div role="status" class="skeleton line"></div>
