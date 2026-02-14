@@ -1,0 +1,27 @@
+@layer components {
+  ot-otp {
+    display: inline-flex;
+    gap: var(--space-2);
+  }
+
+  ot-otp > input[data-otp] {
+    width: 2.5rem;
+    min-width: 2.5rem;
+    margin: 0;
+    padding: var(--space-2) var(--space-1);
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: var(--text-6);
+    line-height: 1;
+  }
+
+  ot-otp > input[data-otp]:focus {
+    position: relative;
+    z-index: 1;
+  }
+
+  ot-otp[disabled] > input[data-otp] {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+}
