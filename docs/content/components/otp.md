@@ -15,28 +15,42 @@ Use `<ot-otp>` for OTP / PIN entry. It supports customizable length and characte
 ```
 {% end %}
 
-### Length
+### Character mode
 
-Set `length` to any positive number:
+Set `type` to control accepted characters.
+
+#### Numeric mode (`type="numeric"`) | Length : 4
 
 {% demo() %}
 ```html
 <ot-otp length="4" type="numeric"></ot-otp>
-<ot-otp length="8" type="numeric"></ot-otp>
 ```
 {% end %}
 
-### Character mode
-
-Set `type` to control accepted characters:
+#### Alphanumeric mode (`type="alphanumeric"`) | Length : 6
 
 {% demo() %}
 ```html
-<ot-otp length="6" type="numeric"></ot-otp>
-<ot-otp length="6" type="alphanumeric"></ot-otp>
-<ot-otp length="6" type="any"></ot-otp>
+<ot-otp length="6" type="alphanumeric"></ot-otp> 
 ```
 {% end %}
+
+#### Any mode (`type="any"`) | Length : 4
+
+{% demo() %}
+```html
+<ot-otp length="4" type="any"></ot-otp>
+```
+{% end %}
+
+### Length
+
+Set `length` to any positive number. Common values:
+
+```html
+<ot-otp length="4" type="numeric"></ot-otp>
+<ot-otp length="6" type="numeric"></ot-otp>
+```
 
 ### Behavior
 

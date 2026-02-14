@@ -150,8 +150,7 @@
     const clean = this.#sanitize(text);
     if (!clean) return;
 
-    const index = Number(input.dataset.otpIndex || 0);
-    this.#fill(clean, index);
+    this.#replace(clean);
   }
 
   get value() {
@@ -160,7 +159,7 @@
 
   set value(next) {
     const clean = this.#sanitize(String(next || ''));
-    this.#fill(clean, 0);
+    this.#replace(clean);
   }
 
   #render() {
@@ -188,7 +187,6 @@
       input.disabled = this.hasAttribute('disabled');
       input.autocomplete = i === 0 ? 'one-time-code' : 'off';
       input.id = inputId;
-      input.name = name ? `${name}-${i + 1}` : `otp-${i + 1}`;
       input.dataset.otp = '';
       input.dataset.otpIndex = String(i);
       input.setAttribute('aria-label', `OTP digit ${i + 1}`);
@@ -212,6 +210,22 @@
 
     this.#inputs[Math.min(cursor, this.#inputs.length - 1)]?.focus();
     this.#sync();
+  }
+
+  // Replace all OTP slots with a new value.
+  #replace(raw) {
+    const clean = this.#sanitize(raw);
+
+    this.#inputs.forEach(i => {
+      i.value = '';
+    });
+
+    if (!clean) {
+      this.#sync();
+      return;
+    }
+
+    this.#fill(clean, 0);
   }
 
   #syncFromAttr() {
