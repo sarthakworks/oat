@@ -168,6 +168,6 @@ Use native `<input type="range">` for performance and accessibility.
 
 ### Notes
 
-- `<input type="range" />` supports `min`, `max`, `step` and `disabled`.
-- Vertical is as simple as adding a CSS `rotate()` rule if someone wants that.
-- Multi-thumb range slider can be useful, but it'll have to be done by stacking 2 `<input type="range" />`s together and hacking it rather than creating a custom slider from scratch to keep it simple.
+- Standard `<input type="range" />` attributes like `min`, `max`, `step`, and `disabled` are fully supported.
+- Vertical sliders created using a CSS `rotate()` transform.
+- Multi-thumb sliders achieved by stacking two range inputs, providing a lightweight alternative to complex custom libraries.
